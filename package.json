@@ -1,0 +1,21 @@
+{
+  "name": "frontend-folder-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build-sass": "node-sass static/scss/main.scss static/css/main.css",
+    "watch-sass": "node-sass -w static/scss/main.scss static/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1"
+  }
+}

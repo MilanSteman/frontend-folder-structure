@@ -1,0 +1,26 @@
+/* Global Styling */
+@import '../util/mixins', '../util/variables';
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+    background-color: $dark;
+    color: $light;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+img {
+	object-fit: cover;
+}

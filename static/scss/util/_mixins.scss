@@ -1,0 +1,11 @@
+@import './variables';
+
+/* Example */
+@mixin Header_Large {
+	font-size: $large;
+}
+
+@mixin Document_Grid {
+	display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}

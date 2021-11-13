@@ -1,0 +1,59 @@
+/* Global imports */
+/* Global Styling */
+/* Example */
+/* Example */
+/* Example */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #131314;
+  color: #E0E1E4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Fixed width layout example */
+body {
+  width: 77.5rem;
+  margin: auto;
+}
+
+@media screen and (max-width: 82.5rem) {
+  body {
+    width: 57.5rem;
+  }
+}
+
+@media screen and (max-width: 62.5rem) {
+  body {
+    width: 37.5rem;
+  }
+}
+
+@media screen and (max-width: 42.5rem) {
+  body {
+    width: 100%;
+    margin: 0 1.5rem;
+  }
+}
+
+/* Component imports */
+/* Example file */
+/*# sourceMappingURL=main.css.map */
